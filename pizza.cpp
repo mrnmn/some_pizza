@@ -61,9 +61,9 @@ void OnePizza::get_input(){//read the data set
             for(int y = 0; y<n ; ++y){
                 cin>>e;
                 new_client.like.insert(e);/*one liked ingredient store it in like container of the current client(new_client)*/
-            }
-            cin>>d;        
+            }       
         }
+        cin>>d; 
         if(d>0){
         for(int x = 0; x<d ; ++x){
         cin>>sd;
@@ -136,6 +136,5 @@ void OnePizza::print_result(){//print the outputs
 void OnePizza::start(){
     maximize().save().print_result();
 }
-
 
 
