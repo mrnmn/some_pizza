@@ -1,4 +1,9 @@
-/*pnly the maximize function need optimization to serve the max clinets */
+
+
+
+/*
+/*THE  maximize FUNCTION NEED OPTIMIZATION TO SERVE THE MAX CLINETS
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
